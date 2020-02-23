@@ -1,0 +1,71 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SemesterGrades
+</name>
+</assembly>
+<members>
+<member name="T:SemesterGrades.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SemesterGrades.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SemesterGrades.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:SemesterGrades.frmSemesterGrades.frmSemesterGrades_Load(System.Object,System.EventArgs)">
+ <summary>
+ Set input array and output array when the program starts 
+ </summary>
+</member>
+<member name="M:SemesterGrades.frmSemesterGrades.btnCalculate_Click(System.Object,System.EventArgs)">
+ <summary>
+ When the "Calculate" button is clicked, perform the calculation if at least one course grade was entered
+ </summary>
+</member>
+<member name="M:SemesterGrades.frmSemesterGrades.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ Run the "SetDefault" function when "Reset" button is clicked
+ </summary>
+</member>
+<member name="M:SemesterGrades.frmSemesterGrades.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Close the form when the "Exit" button is clicked
+ </summary>
+</member>
+<member name="M:SemesterGrades.frmSemesterGrades.TextBoxLoseFocus(System.Object,System.EventArgs)">
+ <summary>
+ The LoseFocus event is used to assign gradepoint to the valid grade
+ </summary>
+</member>
+<member name="M:SemesterGrades.frmSemesterGrades.SetDefault">
+ <summary>
+ This function is used to set the form to default when user clicks "Reset" button
+ </summary>
+</member>
+<member name="M:SemesterGrades.frmSemesterGrades.ValidateGrade(System.Windows.Forms.TextBox)">
+ <summary>
+ This function is used to validate each textbox. It will be called inside another function which validate all textboxes
+ </summary>
+</member>
+<member name="M:SemesterGrades.frmSemesterGrades.ValidateAllGrades(System.Windows.Forms.TextBox[])">
+ <summary>
+ This function is used to determine whether all input are valid or not
+ </summary>
+</member>
+<member name="M:SemesterGrades.frmSemesterGrades.GradePoints(System.Double)">
+ <summary>
+ This function used to display the grade letter equivalent to the grade scale
+ </summary>
+</member>
+</members>
+</doc>

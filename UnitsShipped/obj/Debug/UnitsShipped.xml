@@ -1,0 +1,46 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+UnitsShipped
+</name>
+</assembly>
+<members>
+<member name="T:UnitsShipped.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UnitsShipped.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UnitsShipped.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:UnitsShipped.frmMain.frmMain_Load(System.Object,System.EventArgs)">
+ <summary>
+ When the form is loaded, the input textbox is selected so that user can type input right away
+ </summary>
+</member>
+<member name="M:UnitsShipped.frmMain.btnEnter_Click(System.Object,System.EventArgs)">
+ <summary>
+ Accept the user input when they type a number and hit the Enter button
+ </summary>
+</member>
+<member name="M:UnitsShipped.frmMain.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ Reset the form to the default view
+ </summary>
+</member>
+<member name="M:UnitsShipped.frmMain.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Me Close Form
+ </summary>
+</member>
+</members>
+</doc>

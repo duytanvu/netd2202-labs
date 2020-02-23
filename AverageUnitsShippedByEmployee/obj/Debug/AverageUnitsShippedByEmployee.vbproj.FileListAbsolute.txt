@@ -1,0 +1,11 @@
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\AverageUnitsShippedByEmployee\bin\Debug\AverageUnitsShippedByEmployee.exe.config
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\AverageUnitsShippedByEmployee\bin\Debug\AverageUnitsShippedByEmployee.exe
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\AverageUnitsShippedByEmployee\bin\Debug\AverageUnitsShippedByEmployee.pdb
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\AverageUnitsShippedByEmployee\bin\Debug\AverageUnitsShippedByEmployee.xml
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\AverageUnitsShippedByEmployee\obj\Debug\AverageUnitsShippedByEmployee.vbprojAssemblyReference.cache
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\AverageUnitsShippedByEmployee\obj\Debug\AverageUnitsShippedByEmployee.frmAverageUnitsShippedByEmployee.resources
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\AverageUnitsShippedByEmployee\obj\Debug\AverageUnitsShippedByEmployee.Resources.resources
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\AverageUnitsShippedByEmployee\obj\Debug\AverageUnitsShippedByEmployee.vbproj.GenerateResource.cache
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\AverageUnitsShippedByEmployee\obj\Debug\AverageUnitsShippedByEmployee.exe
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\AverageUnitsShippedByEmployee\obj\Debug\AverageUnitsShippedByEmployee.xml
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\AverageUnitsShippedByEmployee\obj\Debug\AverageUnitsShippedByEmployee.pdb

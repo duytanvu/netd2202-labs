@@ -1,0 +1,11 @@
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\SemesterGrades\bin\Debug\SemesterGrades.exe.config
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\SemesterGrades\bin\Debug\SemesterGrades.exe
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\SemesterGrades\bin\Debug\SemesterGrades.pdb
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\SemesterGrades\bin\Debug\SemesterGrades.xml
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\SemesterGrades\obj\Debug\SemesterGrades.vbprojAssemblyReference.cache
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\SemesterGrades\obj\Debug\SemesterGrades.frmSemesterGrades.resources
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\SemesterGrades\obj\Debug\SemesterGrades.Resources.resources
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\SemesterGrades\obj\Debug\SemesterGrades.vbproj.GenerateResource.cache
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\SemesterGrades\obj\Debug\SemesterGrades.exe
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\SemesterGrades\obj\Debug\SemesterGrades.xml
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\SemesterGrades\obj\Debug\SemesterGrades.pdb
