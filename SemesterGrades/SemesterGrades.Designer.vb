@@ -398,6 +398,7 @@ Partial Class frmSemesterGrades
         '
         'btnReset
         '
+        Me.btnReset.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.btnReset.Dock = System.Windows.Forms.DockStyle.Fill
         Me.btnReset.Location = New System.Drawing.Point(109, 3)
         Me.btnReset.Name = "btnReset"
@@ -444,7 +445,7 @@ Partial Class frmSemesterGrades
         Me.MinimumSize = New System.Drawing.Size(335, 485)
         Me.Name = "frmSemesterGrades"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Semester Grades"
+        Me.Text = "Semester Grades - Duy Tan Vu"
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()
         Me.TableLayoutPanel2.ResumeLayout(False)

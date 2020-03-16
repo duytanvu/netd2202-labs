@@ -22,22 +22,22 @@ UnitsShipped
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
-<member name="M:UnitsShipped.frmMain.frmMain_Load(System.Object,System.EventArgs)">
+<member name="M:UnitsShipped.frmAverageUnitsShipped.frmMain_Load(System.Object,System.EventArgs)">
  <summary>
  When the form is loaded, the input textbox is selected so that user can type input right away
  </summary>
 </member>
-<member name="M:UnitsShipped.frmMain.btnEnter_Click(System.Object,System.EventArgs)">
+<member name="M:UnitsShipped.frmAverageUnitsShipped.btnEnter_Click(System.Object,System.EventArgs)">
  <summary>
  Accept the user input when they type a number and hit the Enter button
  </summary>
 </member>
-<member name="M:UnitsShipped.frmMain.btnReset_Click(System.Object,System.EventArgs)">
+<member name="M:UnitsShipped.frmAverageUnitsShipped.btnReset_Click(System.Object,System.EventArgs)">
  <summary>
  Reset the form to the default view
  </summary>
 </member>
-<member name="M:UnitsShipped.frmMain.btnExit_Click(System.Object,System.EventArgs)">
+<member name="M:UnitsShipped.frmAverageUnitsShipped.btnExit_Click(System.Object,System.EventArgs)">
  <summary>
  Me Close Form
  </summary>

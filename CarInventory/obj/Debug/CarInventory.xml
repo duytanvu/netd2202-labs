@@ -1,0 +1,167 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CarInventory
+</name>
+</assembly>
+<members>
+<member name="T:CarInventory.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CarInventory.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CarInventory.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:CarInventory.Car">
+ <summary>
+ Author: Duy Tan Vu
+ Date: March 10, 2020
+ File name: Car.vb
+ Description: This file is a class used to manipulate the form 
+              with some car's properties and methods.
+ </summary>
+</member>
+<member name="M:CarInventory.Car.#ctor">
+ <summary>
+ Default constructor for the car class; maintain a class count variable.
+ </summary>
+</member>
+<member name="M:CarInventory.Car.#ctor(System.String,System.String,System.Int32,System.Decimal,System.Boolean)">
+ <summary>
+ Parameterized constuctor for the car class; sets several instance variables based on values passed in.
+ </summary>
+ <param name="makeValue"></param>
+ <param name="modelValue"></param>
+ <param name="yearValue"></param>
+ <param name="priceValue"></param>
+ <param name="statusValue"></param>
+</member>
+<member name="P:CarInventory.Car.Count">
+ <summary>
+ Returns the number of car objects
+ </summary>
+ <returns>The number of car objects</returns>
+</member>
+<member name="P:CarInventory.Car.IdentificationNumber">
+ <summary>
+ Get a car's identification number
+ </summary>
+ <returns>A car identification number</returns>
+</member>
+<member name="P:CarInventory.Car.Make">
+ <summary>
+ Gets and sets a car object's manufactor
+ </summary>
+ <returns>A car manufactor name</returns>
+</member>
+<member name="P:CarInventory.Car.Model">
+ <summary>
+ Gets and sets a car object's manufactor
+ </summary>
+ <returns>A car model name</returns>
+</member>
+<member name="P:CarInventory.Car.Year">
+ <summary>
+ Gets and sets a car object's year of production
+ </summary>
+ <returns>A car manufactor year</returns>
+</member>
+<member name="P:CarInventory.Car.Price">
+ <summary>
+ Gets and sets a car object's manufactor
+ </summary>
+ <returns>A car manufactor name</returns>
+</member>
+<member name="P:CarInventory.Car.IsNew">
+ <summary>
+ Gets and sets a car object's manufactor
+ </summary>
+ <returns>A car manufactor name</returns>
+</member>
+<member name="M:CarInventory.Car.GetCarData">
+ <summary>
+ This function used to display a car's properties when selected from the list viewer
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:CarInventory.frmCarInventory">
+ <summary>
+ Author: Duy Tan Vu
+ Date: March 10, 2020
+ Program: Car Inventory
+ Description: This is a program used to store and display information of a car
+              and store them in a list viewer which user can select and manipulate
+              them later on.
+ </summary>
+</member>
+<member name="F:CarInventory.frmCarInventory.carList">
+ <summary>
+ Variable declaration
+ </summary>
+</member>
+<member name="M:CarInventory.frmCarInventory.frmCarInventory_Load(System.Object,System.EventArgs)">
+ <summary>
+ When the form is loaded, add 100 years to the combo box "Year"
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CarInventory.frmCarInventory.btnEnter_Click(System.Object,System.EventArgs)">
+ <summary>
+ When user click the enter button, check if the info already existed or not then store them in the list viewer
+ Display error message if any fields is blank or the input value is not approriate (string instead of number)
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CarInventory.frmCarInventory.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ Call the reset function when "Reset" button is clicked
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CarInventory.frmCarInventory.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Close the form when the "Exit" button is clicked
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CarInventory.frmCarInventory.Reset">
+ <summary>
+ Reset function used to clear all the input fields and reset the car identification number
+ </summary>
+</member>
+<member name="M:CarInventory.frmCarInventory.lvwResult_ItemCheck(System.Object,System.Windows.Forms.ItemCheckEventArgs)">
+ <summary>
+ Function used to prevent user check the checkbox in the list viewer if edit mode is false
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CarInventory.frmCarInventory.lvwResult_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CarInventory.frmCarInventory.IsValidInput">
+ <summary>
+ Function used to validate all input fields
+ </summary>
+ <returns></returns>
+</member>
+</members>
+</doc>

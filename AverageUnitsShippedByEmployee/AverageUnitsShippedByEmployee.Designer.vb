@@ -90,9 +90,9 @@ Partial Class frmAverageUnitsShippedByEmployee
         Me.lblUnits.Name = "lblUnits"
         Me.lblUnits.Size = New System.Drawing.Size(64, 13)
         Me.lblUnits.TabIndex = 1
-        Me.lblUnits.Text = "Units:"
+        Me.lblUnits.Text = "&Units:"
         Me.lblUnits.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.infoToolTip.SetToolTip(Me.lblUnits, "Units")
+        Me.infoToolTip.SetToolTip(Me.lblUnits, "Press Alt + U to enter units")
         '
         'txtInput
         '
@@ -101,7 +101,7 @@ Partial Class frmAverageUnitsShippedByEmployee
         Me.txtInput.Name = "txtInput"
         Me.txtInput.Size = New System.Drawing.Size(64, 20)
         Me.txtInput.TabIndex = 2
-        Me.infoToolTip.SetToolTip(Me.txtInput, "Enter number of units shipped here")
+        Me.infoToolTip.SetToolTip(Me.txtInput, "Click here or press Alt + U to enter number of units shipped here")
         '
         'TableLayoutPanel2
         '

@@ -7,7 +7,7 @@
 
 Option Strict On
 
-Public Class frmMain
+Public Class frmAverageUnitsShipped
 
     ' Declare global variables
     Dim totalValue As Integer = 0

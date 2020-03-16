@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class frmMain
+Partial Class frmAverageUnitsShipped
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -162,7 +162,7 @@ Partial Class frmMain
         Me.lblUnits.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         Me.infoToolTip.SetToolTip(Me.lblUnits, "This is Units")
         '
-        'frmMain
+        'frmAverageUnitsShipped
         '
         Me.AcceptButton = Me.btnEnter
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -177,9 +177,9 @@ Partial Class frmMain
         Me.MaximumSize = New System.Drawing.Size(280, 310)
         Me.MinimizeBox = False
         Me.MinimumSize = New System.Drawing.Size(280, 310)
-        Me.Name = "frmMain"
+        Me.Name = "frmAverageUnitsShipped"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Average Units Shipped"
+        Me.Text = "Average Units Shipped - Duy Tan Vu"
         Me.infoToolTip.SetToolTip(Me, "The program will calculate the average units shipped of 7 days")
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel2.ResumeLayout(False)

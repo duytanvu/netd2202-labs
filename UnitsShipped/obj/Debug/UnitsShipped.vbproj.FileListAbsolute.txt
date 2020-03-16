@@ -25,9 +25,9 @@ C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\UnitsShipped\b
 C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\UnitsShipped\bin\Debug\UnitsShipped.pdb
 C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\UnitsShipped\bin\Debug\UnitsShipped.xml
 C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\UnitsShipped\obj\Debug\UnitsShipped.vbprojAssemblyReference.cache
-C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\UnitsShipped\obj\Debug\UnitsShipped.frmMain.resources
 C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\UnitsShipped\obj\Debug\UnitsShipped.Resources.resources
 C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\UnitsShipped\obj\Debug\UnitsShipped.vbproj.GenerateResource.cache
 C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\UnitsShipped\obj\Debug\UnitsShipped.exe
 C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\UnitsShipped\obj\Debug\UnitsShipped.xml
 C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\UnitsShipped\obj\Debug\UnitsShipped.pdb
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\UnitsShipped\obj\Debug\UnitsShipped.frmAverageUnitsShipped.resources

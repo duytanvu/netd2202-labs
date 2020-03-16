@@ -37,7 +37,7 @@ Public Class frmAverageUnitsShippedByEmployee
 
             ' If the number is less than 0 or greater than 5000 then pop up an error message
             If (arrayResult(employee, day) < MinimumValue Or arrayResult(employee, day) > MaximumValue) Then
-                MessageBox.Show("Valid range is between 0 and 5000. Please try again.")
+                MessageBox.Show("Valid range is between " & MinimumValue & " and " & MaximumValue & ". Please try again.")
                 ' Select the invalid input immediately so the user can fix it quickly
                 txtInput.Focus()
                 txtInput.SelectAll()
@@ -89,7 +89,7 @@ Public Class frmAverageUnitsShippedByEmployee
                         ' Calculte and output the overall average to two decimal points
                         finalResult = Math.Round(finalResult / arrayResult.Length, 2)
                         lblTotalResult.Text = finalResult.ToString()
-                        ' Set the label to 'Done', disable Enter button and select Reset butotn
+                        ' Set the label to 'Done', disable Enter button and select Reset button
                         lblDay.Text = "Done!"
                         txtInput.Enabled = False
                         btnEnter.Enabled = False
@@ -133,6 +133,10 @@ Public Class frmAverageUnitsShippedByEmployee
     End Sub
 
     Sub SetDefault()
+        'Bold the font of employee 1 and reset regular font for employee 2 & 3 
+        lblEmployee1.Font = New Font(lblEmployee1.Font, FontStyle.Bold)
+        lblEmployee2.Font = New Font(lblEmployee2.Font, FontStyle.Regular)
+        lblEmployee3.Font = New Font(lblEmployee3.Font, FontStyle.Regular)
         ' Enable and select enter button
         btnEnter.Enabled = True
         btnEnter.Select()
@@ -142,12 +146,12 @@ Public Class frmAverageUnitsShippedByEmployee
         ' Clear all textboxes and output labels
         ClearControls(listTextbox)
         ClearControls(resultLabel)
+        txtInput.Text = String.Empty
         lblTotalResult.Text = String.Empty
         ' Reset global variables
         day = 0
         employee = 0
         labelDay = 1
-
         ' Reset the lable [Day]
         lblDay.Text = "Day " & labelDay
     End Sub
