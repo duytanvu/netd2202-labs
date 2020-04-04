@@ -1,0 +1,11 @@
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\TextEditor\bin\Debug\TextEditor.exe.config
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\TextEditor\bin\Debug\TextEditor.exe
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\TextEditor\bin\Debug\TextEditor.pdb
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\TextEditor\bin\Debug\TextEditor.xml
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\TextEditor\obj\Debug\TextEditor.vbprojAssemblyReference.cache
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\TextEditor\obj\Debug\TextEditor.frmTextEditor.resources
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\TextEditor\obj\Debug\TextEditor.Resources.resources
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\TextEditor\obj\Debug\TextEditor.vbproj.GenerateResource.cache
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\TextEditor\obj\Debug\TextEditor.exe
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\TextEditor\obj\Debug\TextEditor.xml
+C:\Users\vuduy\Documents\durham-college\semester-2\netd-2202\labs\TextEditor\obj\Debug\TextEditor.pdb

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TextEditor
+</name>
+</assembly>
+<members>
+<member name="T:TextEditor.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:TextEditor.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:TextEditor.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:TextEditor.frmTextEditor.frmTextEditor_Load(System.Object,System.EventArgs)">
+ <summary>
+ Original text when the form load is string.empty
+ </summary>
+</member>
+<member name="M:TextEditor.frmTextEditor.mnuFileNew_Click(System.Object,System.EventArgs)">
+ <summary>
+ NEW menu is clicked
+ </summary>
+</member>
+<member name="M:TextEditor.frmTextEditor.mnuFileOpen_Click(System.Object,System.EventArgs)">
+ <summary>
+ OPEN menu is clicked
+ </summary>
+</member>
+<member name="M:TextEditor.frmTextEditor.mnuFileSave_Click(System.Object,System.EventArgs)">
+ <summary>
+ SAVE menu is clicked
+ </summary>
+</member>
+<member name="M:TextEditor.frmTextEditor.mnuFileSaveAs_Click(System.Object,System.EventArgs)">
+ <summary>
+ SAVE AS menu is clicked
+ </summary>
+</member>
+<member name="M:TextEditor.frmTextEditor.mnuFileExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ EXIT menu is clicked
+ </summary>
+</member>
+<member name="M:TextEditor.frmTextEditor.mnuEditCopy_Click(System.Object,System.EventArgs)">
+ <summary>
+ COPY menu is clicked
+ </summary>
+</member>
+<member name="M:TextEditor.frmTextEditor.mnuEditCut_Click(System.Object,System.EventArgs)">
+ <summary>
+ CUT menu is clicked
+ </summary>
+</member>
+<member name="M:TextEditor.frmTextEditor.mnuEditPaste_Click(System.Object,System.EventArgs)">
+ <summary>
+ PASTE menu is clicked
+ </summary>
+</member>
+<member name="M:TextEditor.frmTextEditor.mnuHelpAbout_Click(System.Object,System.EventArgs)">
+ <summary>
+ ABOUT menu is clicked
+ </summary>
+</member>
+<member name="M:TextEditor.frmTextEditor.ConfirmClose">
+ <summary>
+ BONUS marks: ConfirmClose() function
+ This function simplify everything without a boolean value to detect if a file is open or not.
+ If a text is unchaged, it will not pop up confirmation message (including new file)
+ </summary>
+</member>
+<member name="M:TextEditor.frmTextEditor.SaveFile(System.String)">
+ <summary>
+ Procedure to save a file
+ </summary>
+</member>
+<member name="M:TextEditor.frmTextEditor.OpenFile(System.String)">
+ <summary>
+ Procedure to open a file
+ I pass it a parameter as textbox because I need to use it for reading file and compare files (for BONUS marks part 2)
+ </summary>
+</member>
+<member name="M:TextEditor.frmTextEditor.UpdateFormTitle">
+ <summary>
+ Used to update the file path to the title
+ </summary>
+</member>
+</members>
+</doc>
